@@ -24,7 +24,7 @@
         <ul class="nav navbar-nav">
             <li class="active"><a href="home.php">Home</a></li>
             <li><a href="viewdata.php">view Data</a></li>
-            <li><a href="#">category 2</a></li>
+            <li><a href="listdata.php">List Data</a></li>
             <li><a href="#">category 3</a></li>
         </ul>
     </div>
