@@ -51,6 +51,7 @@
 					echo "<td><a href=\"delete.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a>|<a href=\"edit.php?id=$row[id]\">Edit</a></td>";
 					echo "</tr>";
                 }
+				echo "<h3><a href='convertxml.php' style='float:right;'>Export as Xml</a></h3>";
             }
             else
             {
