@@ -27,6 +27,7 @@
     </div>
 </nav>
 <div class="container">
+<h3><a href='convertxml.php' style='float:right;' class='btn btn-info'>Export as Xml</a></h3><br/><br/>
 	<table class="table table-striped table-bordered table-condensed">
 		<tr>
         <th>News ID</th>
@@ -51,7 +52,7 @@
 					echo "<td><a href=\"delete.php?id=$row[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a>|<a href=\"edit.php?id=$row[id]\">Edit</a></td>";
 					echo "</tr>";
                 }
-				echo "<h3><a href='convertxml.php' style='float:right;'>Export as Xml</a></h3>";
+			
             }
             else
             {
